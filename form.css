@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    caret-color: rgb(0, 0, 0);
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 3px solid red; */
+    flex-direction: column;
+    background: linear-gradient(to bottom, #ffffff, #c8c9c8,#9fa09f );
+}
+#section{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* height: 85vh; */
+    border-radius: 1.5rem;
+    border: 3px solid gray;
+    background-color: rgb(254, 254, 254);
+    flex-wrap: wrap;
+}
+.name{
+    border-radius: 0.2rem;
+    height: 2.3rem;
+    width: 11.5rem;
+ 
+}
+input{
+    border-radius: 0.2rem;
+    height: 2.3rem;
+    padding-left: 5px;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    margin:  1rem 0rem 1rem 0rem;
+}
+.gender{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* max-width: 500px; */
+    min-width: 250px;
+}
+p{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font: bolder;
+}
+.gendername{
+    display: flex;
+    justify-content: space-between;
+}
+
+.emailId{
+    min-width: 15rem;
+    /* background-color: black; */
+}
+.genderradio{
+    height: 13px;
+    padding:3px ;
+}
+#button{
+    margin-top:1rem;
+    align-self: center;
+    background-color: rgb(3, 3, 254);
+    width: 6rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.3rem;
+    height: 2rem;
+    font-size: 1.2rem;
+}
+#textArea{
+    padding: 2px;
+}
+.mobileAndEmail{
+    display: flex;
+    justify-content: space-between;
+    margin:  1rem 0rem 1rem 0rem;
+
+}
+.mobileNumber{
+    width: 15rem;
+}
+@media (min-width:300px) and (max-width:900px)
+{
+    #section{
+        width: 30rem;
+    }
+    #textArea{
+        width: 28rem;
+        height: 9rem;
+    }
+    .name{
+        width: 9.2rem
+    }
+    .section2{
+        width: 28rem;
+    }
+    .mobileAndEmail{
+        width: 28rem;
+    }
+    .mobileNumber{
+        width: 10rem;
+    }
+}
+@media (min-width:410px) and (max-width:480px)
+{
+    #section{
+        width: 25rem;
+    }
+    #textArea{
+        width: 23rem;
+        height: 9rem;
+    }
+    .name{
+        width: 7.2rem
+    }
+    .section2{
+        width: 18rem;
+    }
+    .mobileAndEmail{
+        width: 23rem;
+    }
+    .mobileNumber{
+        width: 7rem;
+    }
+    #age{
+        width: 8rem;
+    }
+    .gendername{
+        margin-right:20px;
+    }
+}
+@media (min-width:300px) and (max-width:420px)
+{
+    #section{
+        width: 20rem;
+        margin-right: 0.5rem;
+    }
+    #textArea{
+        width: 18.5rem;
+        height: 9rem;
+    }
+    .name{
+        width: 6rem;
+        margin-bottom: 0rem;
+    }
+    .section2{
+        margin-top:0rem;
+        width: 15rem;
+        flex-wrap: wrap;
+    }
+    .mobileAndEmail{
+        display: flex;
+        flex-wrap:wrap;
+        width: 20rem;
+    }
+    .mobileNumber{
+        width: 15rem;
+        margin-bottom: 0.2rem;
+    }
+    #age{
+        width: 10rem;
+    }
+    .age{
+        margin-top: 0.5rem 0rem -5rem 0rem;
+    }
+    .gendername{
+        margin-right:20px;
+    }
+    #name{
+        height: 5rem;
+    }
+}
